@@ -90,3 +90,13 @@ section{
   height: 100vh;
   transition: all .5s;
 }
+.sidebar {
+  position: fixed;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background: #042331;
+  transition: all .5s ease;
+}
+#check:checked ~ label #cancel{
+  left: 195px;
